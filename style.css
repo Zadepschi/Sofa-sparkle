@@ -2,7 +2,9 @@
 body {
     background-color: #d7e5ee !important;
 }
-
+#home {
+    min-height: 100vh;
+}
 .logo {
     display: flex;
     justify-content: center;
@@ -27,6 +29,8 @@ body {
 }
 .cleaningPar {
     align-self: center;
+    font-size: 15px;
+    margin: 0;
 }
 
 .sosialContainer {
@@ -118,16 +122,26 @@ body {
         .logoPic {
             width: 600px;
         }
+        .cleaning {
+            width: 80vw;
+        }
         .sosialBox {
             width: 80vw;
+        }
+        .cleaningPar {
+            font-size: 14px;
+        }
+        .par {
+            font-size: 14px;
         }
         .btn1,.btn2 {
              width: 35vw;
         }
+        .galleryBox {
+            width: 80vw;
+        }
         .carousel {
             max-width: 80vw;
-         
-        
         }
     }
 
@@ -138,12 +152,16 @@ body {
         .sosialBox {
             width: 90vw;
         }
+        .cleaningPar {
+            font-size: 13px;
+        }
+        .par {
+            font-size: 13px;
+        }
         .btn1,.btn2 {
              width: 35vw;
         }
         .carousel {
             max-width: 90vw;
-         
-        
         }
     }
