@@ -23,6 +23,7 @@ body {
     flex-direction: column;
     width: 792px;
     padding: 10px;
+    margin-top: 10px;
 }
 .cleaningH5 {
     align-self: center;
@@ -46,7 +47,7 @@ body {
     background: #0a3556;
     padding: 7px;
     border-radius: 5px;
-    margin-bottom: 10px;
+    margin: 10px;
 }
 .par {
     color: white;
@@ -147,7 +148,7 @@ body {
 
     @media (max-width: 530px) {
         .logoPic {
-            width: 80vw;
+            width: 90vw;
         }
         .sosialBox {
             width: 90vw;
