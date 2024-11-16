@@ -1,0 +1,26 @@
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.sosialContainer {
+    display: flex;
+    justify-content: center;
+}
+.sosialBox {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: #0a3556;
+}
+.par {
+    color: white;
+    align-self: center;
+}
+.buttonBox {
+    align-self: center;
+}
+body {
+    background-color: #d7e5ee !important;
+}
