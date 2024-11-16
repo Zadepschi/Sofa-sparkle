@@ -118,6 +118,33 @@ body {
         margin: 0 auto;
     
     }
+    #services {
+        min-height: 100vh;
+        font-family: Arial, sans-serif;
+        background-color: #d5e8f4;
+        padding: 20px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+    th, td {
+        text-align: left;
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+    th {
+        background-color: #004080;
+        color: white;
+    }
+    td {
+        background-color: #f4f9ff;
+    }
+    h2 {
+        text-align: center;
+        color: #004080;
+    }
 
     @media (max-width: 920px) {
         .logoPic {
