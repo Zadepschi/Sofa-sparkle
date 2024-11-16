@@ -1,26 +1,149 @@
 
+body {
+    background-color: #d7e5ee !important;
+}
 
 .logo {
     display: flex;
     justify-content: center;
+  
 }
+.logoPic {
+    width: 800px;
+}
+.cleaningContainer {
+    display: flex;
+    justify-content: center;
+
+}
+.cleaning {
+    display: flex;
+    flex-direction: column;
+    width: 792px;
+    padding: 10px;
+}
+.cleaningH5 {
+    align-self: center;
+}
+.cleaningPar {
+    align-self: center;
+}
+
 .sosialContainer {
     display: flex;
     justify-content: center;
+    
 }
+
 .sosialBox {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 792px;
     background: #0a3556;
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 .par {
     color: white;
     align-self: center;
+    font-size: 15px;
+    margin: 0;
 }
 .buttonBox {
     align-self: center;
 }
-body {
-    background-color: #d7e5ee !important;
+
+.btn1 {
+    background-color: #55cd6c;
+    padding: 8px;
+    margin: 8px;
+    font-size: 20px;
+    border-radius: 8px;
+    width: 345px;
+    border: none;
 }
+.btn2 {
+    background-color: #61a8de;
+    padding: 8px;
+    margin: 8px;
+    font-size: 20px;
+    border-radius: 8px;
+    width: 345px;
+    border: none;
+ }
+
+
+.navbar {
+    background-color: #0a3556;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white !important; 
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #d0d3d6 !important; 
+     }
+
+     .navbar-brand {
+        color: white !important; 
+     }
+     .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important ;
+    }
+
+    #gallery {
+        min-height: 100vh;
+       background-color: #f2f6f7;
+    }
+    .galleryContainer {
+        display: flex;
+        justify-content: center;
+    }
+    .galleryBox {
+        display: flex;
+        flex-direction: column;
+        width: 792px;
+        padding: 7px;
+        
+    }
+    .carousel {
+        max-width: 50vw;
+        margin: 0 auto;
+    
+    }
+
+    @media (max-width: 920px) {
+        .logoPic {
+            width: 600px;
+        }
+        .sosialBox {
+            width: 80vw;
+        }
+        .btn1,.btn2 {
+             width: 35vw;
+        }
+        .carousel {
+            max-width: 80vw;
+         
+        
+        }
+    }
+
+    @media (max-width: 530px) {
+        .logoPic {
+            width: 80vw;
+        }
+        .sosialBox {
+            width: 90vw;
+        }
+        .btn1,.btn2 {
+             width: 35vw;
+        }
+        .carousel {
+            max-width: 90vw;
+         
+        
+        }
+    }

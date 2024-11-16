@@ -8,9 +8,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">SOFA SPARKLE</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,9 +22,9 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link active" aria-current="page" href="#">Pricing</a>
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#gallery">Gallery</a>
+              <a class="nav-link active" aria-current="page" href="#">Services</a>
+              <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
             </div>
           </div>
         </div>
@@ -29,27 +32,135 @@
 
 
 <div class="logo"> 
-    <img src="pictures/logoSOFA sparcle.svg" width="800px" />
+    <img class="logoPic" src="pictures/logoSOFA sparcle.svg"/>
 </div>
-<div>
-<h5>CLEANING SERVICES</h5>
-<p>SOFA SPARKLE specializes in deep cleaning furniture and carpets to make your space clean and fresh. Trust us for a pristine clean and fresh look!</p>
+
+
+
+<div class="cleaningContainer">
+<div class="cleaning">
+     <h5 class="cleaningH5">CLEANING SERVICES</h5>
+      <p class="cleaningPar">SOFA SPARKLE specializes in deep cleaning furniture and carpets to make your space clean and fresh.</p>
+      <p class="cleaningPar">Trust us for a pristine clean and fresh look!</p>
+</div>
 </div>
 <div class="sosialContainer">
 <div class="sosialBox">
-    <p class="par">Book a deep cleaning service for your furniture and carpets and get 10% off your total bill. Limited time offer, book now!</p>
+    <p class="par">Book a deep cleaning service for your furniture and carpets and get 10% off your total bill. </p>
+    <p class="par">Limited time offer, book now!</p>
     <div class="buttonBox">
-        <button><img class="whatsapp" src="pictures/whatsapp.png" width="30px"/></button>
-        <button><img class="telegram" src="pictures/telegram.png" width="30px"/></button>
+        <button class="btn1"><img class="whatsapp" src="pictures/whatsapp.png" width="30px"/></button>
+        <button class="btn2"><img class="telegram" src="pictures/telegram.png" width="30px"/></button>
     </div>
 </div>
 </div>
 
+<div id="gallery">
+<div class="galleryContainer">
+    <div class="galleryBox">
+    <h3 class="cleaningPar">Gallery</h3>
+    <p class="cleaningPar">View stunning results of our deep cleaning services on various furniture and carpets.</p>
+   </div>
+</div>
+   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10" aria-label="Slide 11"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="11" aria-label="Slide 12"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="12" aria-label="Slide 13"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="13" aria-label="Slide 14"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="14" aria-label="Slide 15"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="15" aria-label="Slide 16"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="16" aria-label="Slide 17"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="17" aria-label="Slide 18"></button>
+
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="pictures/iPhone 16 Pro Max - 1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/iPhone 16 Pro Max - 2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/iPhone 16 Pro Max - 20.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/iPhone 16 Pro Max - 21.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/iPhone 16 Pro Max - 22.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/iPhone 16 Pro Max - 23.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/iPhone 16 Pro Max - 24.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/iPhone 16 Pro Max - 25.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/iPhone 16 Pro Max - 26.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/iPhone 16 Pro Max - 27.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/iPhone 16 Pro Max - 28.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/iPhone 16 Pro Max - 29.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/iPhone 16 Pro Max - 30.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/iPhone 16 Pro Max - 31.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/iPhone 16 Pro Max - 32.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/iPhone 16 Pro Max - 33.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/iPhone 16 Pro Max - 34.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/iPhone 16 Pro Max - 35.jpg" class="d-block w-100" alt="...">
+      </div>
+    
 
 
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
+
+
+
+</div>
+
+
+
+  
 </body>
 </html>
