@@ -158,14 +158,21 @@ p {
         margin: 0 auto;
     
     }
+    
     #services {
         min-height: 100vh;
-        font-family: Arial, sans-serif;
         background-color: #d5e8f4;
         padding: 20px;
+        
+    }
+    .serviceContainer {
+        width: 80vh;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
     }
     table {
-        width: 100%;
+   
         border-collapse: collapse;
         margin: 20px 0;
     }
@@ -185,6 +192,76 @@ p {
         text-align: center;
         color: #004080;
     }
+
+
+/* Основные стили */
+.advantagesContainer {
+
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px; /* Ограничение ширины */
+    margin: 0 auto; /* Центрирование на странице */
+    text-align: center;
+
+}
+
+.advantagesContainer h2 {
+    font-size: 24px;
+    color: #1e3550; /* Темно-синий */
+    margin-bottom: 20px;
+}
+
+.advantageItem {
+    display: flex;
+    align-items: flex-start; /* Выровнять текст по началу иконки */
+    gap: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.advantageIcon {
+    width: 40px;
+    height: 40px;
+}
+
+.advantageContent h3 {
+    font-size: 18px;
+    color: #1e3550;
+    margin: 0 0 5px 0;
+}
+
+.advantageContent p {
+    font-size: 14px;
+    color: #4a5d73;
+    margin: 0;
+}
+.accordion {
+    max-width: 800px;
+    margin: 0 auto; /* Выравнивание по центру */
+   
+  }
+.accordion-body {
+    background-color: #f4f5f7;
+}
+button.accordion-button {
+    background-color: #f4f5f7;
+}
+.accordion-item {
+    margin: 5px;
+}
+.accordion-button {
+    color: #000 !important; /* Принудительно устанавливаем цвет текста */
+    background-color: #f4f5f7 !important;
+    font-weight: bold;
+  }
+  
+  /* Отключаем изменение цвета текста при разных состояниях */
+  .accordion-button:focus,
+  .accordion-button:hover,
+  .accordion-button:not(.collapsed) {
+    color: #000 !important; /* Остается неизменным */
+    background-color: #f4f5f7 !important;
+  }
 
     @media (max-width: 920px) {
         .logoPic {
@@ -226,6 +303,10 @@ p {
         p {
             font-size: 15px; /* Уменьшаем размер текста */
         }
+        .accordion {
+            max-width: 100%;
+            margin: 0 10px; /* Немного отступов с боков */
+          }
     }
 
     @media (max-width: 768px) {
@@ -254,6 +335,37 @@ p {
             font-size: 14px; /* Уменьшаем размер текста */
             margin-bottom: 15px;
         }
+      
+    
+        .advantageIcon {
+            width: 35px; /* Уменьшаем размер иконок */
+            height: 35px;
+            margin-bottom: 10px; /* Отступ под иконкой */
+        }
+    
+        .advantageContent h3 {
+            font-size: 16px; /* Уменьшаем шрифт заголовков */
+        }
+    
+        .advantageContent p {
+            font-size: 13px; /* Уменьшаем шрифт текста */
+        }
+        .serviceContainer {
+            width: 95%; /* Увеличиваем ширину для мобильных */
+            padding: 10px;
+        }
+    
+        table {
+            font-size: 14px; /* Уменьшаем шрифт в таблице */
+        }
+    
+        th, td {
+            padding: 8px; /* Уменьшаем отступы */
+        }
+    
+        h2 {
+            font-size: 18px; /* Уменьшаем размер заголовка */
+        }
     }
 
 
@@ -276,5 +388,37 @@ p {
         }
         .carousel {
             max-width: 90vw;
+        }
+        .advantagesContainer {
+            padding: 15px; /* Уменьшаем внутренние отступы */
+        }
+    
+        .advantageIcon {
+            width: 30px; /* Еще меньше иконки */
+            height: 30px;
+        }
+    
+        .advantageContent h3 {
+            font-size: 14px;
+        }
+    
+        .advantageContent p {
+            font-size: 12px;
+        }
+        .serviceContainer {
+            width: 100%;
+            padding: 5px;
+        }
+    
+        table {
+            font-size: 12px; /* Еще больше уменьшаем шрифт */
+        }
+    
+        th, td {
+            padding: 5px; /* Минимизируем отступы */
+        }
+    
+        h2 {
+            font-size: 16px;
         }
     }
