@@ -365,8 +365,9 @@ button.accordion-button {
         }
         .accordion {
             max-width: 100%;
-            margin: 0 10px; /* Немного отступов с боков */
+            margin: 0 5px; /* Немного отступов с боков */
           }
+     
     }
 
     @media (max-width: 768px) {
@@ -410,6 +411,10 @@ button.accordion-button {
         .advantageContent p {
             font-size: 13px; /* Уменьшаем шрифт текста */
         }
+        #services {
+            padding: 5px;
+        
+        }
         .serviceContainer {
             width: 95%; /* Увеличиваем ширину для мобильных */
             padding: 10px;
@@ -425,6 +430,15 @@ button.accordion-button {
     
         h2 {
             font-size: 18px; /* Уменьшаем размер заголовка */
+        }
+        .contact-us {
+            padding: 10px;
+        }
+        .contact-item {
+
+            margin-bottom: 10px;
+            padding: 7px;
+
         }
         
     }
@@ -481,5 +495,14 @@ button.accordion-button {
     
         h2 {
             font-size: 16px;
+        }
+        .contact-us {
+            padding: 5px;
+        }
+        .contact-item {
+
+            margin-bottom: 5px;
+            padding: 5px;
+
         }
     }
