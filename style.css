@@ -252,7 +252,7 @@ button.accordion-button {
 .accordion-button {
     color: #000 !important; /* Принудительно устанавливаем цвет текста */
     background-color: #f4f5f7 !important;
-    font-weight: bold;
+    font-weight: 500;
   }
   
   /* Отключаем изменение цвета текста при разных состояниях */
@@ -266,6 +266,62 @@ button.accordion-button {
     display: flex;
     justify-content: center;
   }
+
+#contact-us {
+    display: flex;
+    background-color: #01385c; 
+
+}
+  .contact-us {
+    color: #ffffff;
+    padding: 20px;
+    margin: auto;
+
+}
+
+.contact-us h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.contact-item:last-child {
+    border-bottom: none;
+}
+
+.contact-item i {
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.contact-item h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.contact-item p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.contact-item a {
+    color: #ffffff; /* Светлый синий цвет ссылок */
+    text-decoration: none;
+    font-size: 18px;
+}
+.contact-item a:hover {
+    color: #a6f8f4; 
+}
+
 
     @media (max-width: 920px) {
         .logoPic {
@@ -370,6 +426,7 @@ button.accordion-button {
         h2 {
             font-size: 18px; /* Уменьшаем размер заголовка */
         }
+        
     }
 
 
