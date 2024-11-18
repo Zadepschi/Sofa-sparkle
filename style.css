@@ -101,6 +101,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 792px;
 }
 .starList {
     display: flex;
@@ -169,6 +170,9 @@ body {
         .sosialBox {
             width: 80vw;
         }
+        .starContainer {
+            width: 80vw;
+        }
         .cleaningPar {
             font-size: 19px;
         }
@@ -191,6 +195,9 @@ body {
             width: 90vw;
         }
         .sosialBox {
+            width: 90vw;
+        }
+        .starContainer {
             width: 90vw;
         }
     
