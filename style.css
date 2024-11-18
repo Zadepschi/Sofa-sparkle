@@ -262,6 +262,10 @@ button.accordion-button {
     color: #000 !important; /* Остается неизменным */
     background-color: #f4f5f7 !important;
   }
+  .buttonBoxContainer {
+    display: flex;
+    justify-content: center;
+  }
 
     @media (max-width: 920px) {
         .logoPic {
