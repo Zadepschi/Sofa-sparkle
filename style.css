@@ -97,20 +97,46 @@ body {
      .navbar-light .navbar-toggler-icon {
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important ;
     }
+
 .starContainer {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; /* Размещение содержимого в столбик */
+    justify-content: center; /* Центрирование по вертикали */
+    align-items: center; /* Центрирование по горизонтали */
     width: 792px;
+    padding: 20px;
+    margin: 0 auto; 
+}
+.starBox {
+    display: flex;
+    flex-direction: column; /* Размещение содержимого в столбик */
+    align-items: center;
+  
 }
 .starList {
     display: flex;
+    justify-content: center; /* Центрирование звезд */
     list-style: none;
+    padding: 0;
+    margin: 10px 0;
 }
-    .star {
-        width: 25px;
-        
-    }
+  
+.star {
+      width: 25px;
+      height: 25px;
+      margin-right: 5px;
+}
+.star:last-child {
+    margin-right: 0;
+}      
+   
+p {
+    text-align: center; /* Центрирование текста */
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
     #gallery {
         min-height: 100vh;
        background-color: #f2f6f7;
@@ -188,7 +214,51 @@ body {
         .carousel {
             max-width: 80vw;
         }
+        .starContainer {
+            width: 90%; /* Уменьшаем ширину */
+            padding: 15px; /* Уменьшаем отступы */
+        }
+    
+        h3 {
+            font-size: 20px; /* Уменьшаем размер заголовка */
+        }
+    
+        p {
+            font-size: 15px; /* Уменьшаем размер текста */
+        }
     }
+
+    @media (max-width: 768px) {
+        .starContainer {
+            width: 100%; /* Контейнер занимает всю ширину */
+            padding: 10px; /* Уменьшаем отступы */
+            border-radius: 0; /* Убираем скругленные углы для экономии места */
+            box-shadow: none; /* Убираем тень */
+        }
+    
+        .starBox {
+            align-items: center; /* Оставляем элементы центрированными */
+        }
+    
+        h3 {
+            font-size: 18px; /* Еще меньше размер заголовка */
+            margin-bottom: 15px;
+        }
+    
+        .star {
+            width: 20px; /* Уменьшаем размер звезд */
+            height: 20px;
+        }
+    
+        p {
+            font-size: 14px; /* Уменьшаем размер текста */
+            margin-bottom: 15px;
+        }
+    }
+
+
+
+
 
     @media (max-width: 530px) {
         .logoPic {
