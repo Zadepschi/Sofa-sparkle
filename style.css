@@ -322,6 +322,7 @@ button.accordion-button {
     color: #a6f8f4; 
 }
 
+
 /* Import Google font - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 * {
@@ -357,6 +358,7 @@ button.accordion-button {
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
 	transform: translateY(-50%);
 	transition: transform 0.1s linear;
+    z-index: 10;
 }
 .wrapper i:active {
 	transform: translateY(-50%) scale(0.85);
@@ -431,8 +433,8 @@ button.accordion-button {
 }
 .parCarousel {
 	color: #8196a7;
-	padding: 5px;
-	margin: 5px;
+	padding: 3px;
+	margin: 3px;
 }
 .heading {
 	font-size: 24px;
