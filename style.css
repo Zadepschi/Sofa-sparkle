@@ -286,9 +286,10 @@ button.accordion-button {
 }
 
 .contact-item {
+
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -455,6 +456,10 @@ button.accordion-button {
 	color: white;
 	font-size: 16px;
 }
+.btnCarousel a {
+    text-decoration: none; 
+    color: white;
+}
 .card {
 	flex-grow: 1; /* Заполняет всё доступное пространство карточки */
   }
@@ -593,13 +598,31 @@ button.accordion-button {
         .contact-us {
             padding: 10px;
         }
+        .contact-us h2 {
+            margin-bottom: 10px;
+            font-size: 18px;
+
+        }
+        
         .contact-item {
 
             margin-bottom: 10px;
             padding: 7px;
 
         }
-        
+        .contact-item h3 {
+            font-size: 15px;
+        }
+        .contact-item p {
+            font-size: 12px;
+        }
+        .contact-item a {
+
+            font-size: 15px;
+        }
+        .contact-item img {
+            width: 26px;
+        }
     }
 
 
