@@ -468,6 +468,34 @@ button.accordion-button {
 	margin-top: auto; /* Сдвигает кнопку вниз */
   }
 
+  #map {
+	height: 400px;
+  }
+.locationContainer {
+    display: flex;
+    justify-content: center;
+}
+  .locationButtonBox {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+  }
+  .locationButtonBox button {
+    margin: 14px 0 0;
+    padding: 15px;
+    width: 760px;
+    background-color: #0a3556;
+    border: none;
+    color: white;
+    font-size: 16px;
+font-weight: 600;
+border-radius: 10px;
+  }
+
+
   @media screen and (max-width: 900px) {
 	.wrapper .carouselUl {
 		grid-auto-columns: calc((100% / 2) - 9px);
@@ -622,6 +650,10 @@ button.accordion-button {
         }
         .contact-item img {
             width: 26px;
+        }
+        .locationButtonBox button {
+            width: 90vw;
+            font-size: 14px;
         }
     }
 

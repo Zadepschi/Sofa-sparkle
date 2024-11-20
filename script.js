@@ -92,3 +92,34 @@ document.addEventListener("mouseup", dragStop);
 carouselUl.addEventListener("scroll", infiniteScroll);
 wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
 wrapper.addEventListener("mouseleave", autoPlay);
+
+
+
+
+
+
+
+// Инициализация карты
+const map = L.map('map').setView([34.0522, -118.2437], 9);
+
+// Добавление слоя карты
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+// Массив с координатами и описанием меток
+const markers = [
+    { coords: [34.0317, -118.1433], popup: "LOS ANGELES" },
+  { coords: [34.1502, -118.6469], popup: "CALABASOS" },
+  { coords: [33.4311, -117.5846], popup: "ORANGE COUNTY" },
+  { coords: [34.0310, -118.4897], popup: "SANTA MONICA" },
+  { coords: [34.0736, -118.4004], popup: "BEVERLY HILLS" },
+  { coords: [34.1057, -118.2622], popup: "SAN FERNANDO VALLEY" }
+
+  
+];
+
+// Добавление меток на карту
+markers.forEach(marker => {
+  L.marker(marker.coords).addTo(map).bindPopup(marker.popup);
+});
